@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./slip.css"
 
 import { IoArrowBackOutline, IoTimeOutline } from "react-icons/io5";
 import { PiShareBold } from "react-icons/pi";
