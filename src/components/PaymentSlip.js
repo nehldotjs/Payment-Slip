@@ -9,6 +9,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function PaymentSlip() {
   const [isActive, setIsActive] = useState(false);
+
   const officeStaff = [
     {
       id: 1,
@@ -46,6 +47,7 @@ function PaymentSlip() {
       isPaid: true
     }
   ];
+
   return (
     <div className="receipt-wrapper">
       <div className="iphone17-prMax-resolution">
