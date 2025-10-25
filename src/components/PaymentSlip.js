@@ -10,43 +10,39 @@ import { FaCheckCircle } from "react-icons/fa";
 function PaymentSlip() {
   const [isActive, setIsActive] = useState(false);
 
-  const officeStaff = [
-    {
-      id: 1,
-      name: "Emeka",
-      image:
-        "https://pngtree.com/freepng/portrait-of-african-boy-child-avatar-like-vector_10388388.html",
-      isPaid: true
-    },
-    {
-      id: 2,
-      name: "Ngozi",
-      image:
-        "https://pngtree.com/freepng/portrait-of-african-woman-in-hat-avatar-young-teenager-vector_10388483.html",
-      isPaid: false
-    },
-    {
-      id: 3,
-      name: "Tunde",
-      image:
-        "https://pngtree.com/freepng/face-of-african-woman-young-icon-avatar-vector_10388019.html",
-      isPaid: true
-    },
-    {
-      id: 4,
-      name: "Amara",
-      image:
-        "https://pngtree.com/freepng/avatar-job-student-flat-portrait-of-african-american-man_14519307.html",
-      isPaid: false
-    },
-    {
-      id: 5,
-      name: "Ibrahim",
-      image:
-        "https://pngtree.com/freepng/avatar-job-student-flat-portrait-of-african-american-man_14519307.html",
-      isPaid: true
-    }
-  ];
+ const officeStaff = [
+   {
+     id: 1,
+     name: "Emeka",
+     image: "https://api.dicebear.com/9.x/adventurer/svg?seed=Emeka",
+     isPaid: true
+   },
+   {
+     id: 2,
+     name: "Ngozi",
+     image: "https://api.dicebear.com/9.x/adventurer/svg?seed=Ngozi",
+     isPaid: false
+   },
+   {
+     id: 3,
+     name: "Tunde",
+     image: "https://api.dicebear.com/9.x/adventurer/svg?seed=Tunde",
+     isPaid: true
+   },
+   {
+     id: 4,
+     name: "Amara",
+     image: "https://api.dicebear.com/9.x/adventurer/svg?seed=Amara",
+     isPaid: false
+   },
+   {
+     id: 5,
+     name: "Ibrahim",
+     image: "https://api.dicebear.com/9.x/adventurer/svg?seed=Ibrahim",
+     isPaid: true
+   }
+ ];
+
 
   return (
     <div className="receipt-wrapper">
